@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --steelblue: hsl(207, 44%, 49%);
+    --charcole: hsl(0, 0%, 10%);
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--steelblue);
+    font-family: "Inter", sans-serif;
+}
+
+
